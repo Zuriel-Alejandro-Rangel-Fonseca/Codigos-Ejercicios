@@ -1,0 +1,24 @@
+<?xml versión=”1.0” standalone=”no”?>
+
+<!DOCTYPE serie SYSTEM “series.dtd”>
+
+<series>
+
+<series tipo=”Drama, aventura” sistema=”PG-14” ejemplares=”5” año=“2019”>
+
+<titulo>The Witcher</titulo>
+
+<productor>Lauren Schmidt Hissrich</productor>
+
+<director>Sean Daniel</director>​
+<director>Jason Brown​</director>
+<director>Tomasz Bagiński​</director>
+<director>Jarosław Sawko​</director>
+<director>Lauren Schmidt Hissrich.</director>
+<director>Alik Sakharov</director>
+
+<actor>Henry Cavill</actor>
+
+<actor>Anya Chalotra</actor>
+
+</series>
