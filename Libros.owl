@@ -1,0 +1,468 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zury/ontologies/2020/3/untitled-ontology-12"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zury/ontologies/2020/3/untitled-ontology-12">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#editorial"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#escritor"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#libro"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#aPublicado"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esGenero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#escribio"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#escritoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tienePaginas"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneTitulosComo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#genero"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#numeroPaginas"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edi1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edi2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Edi3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Esc1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Esc2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Esc3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Esc4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Esc5"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lib1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lib2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lib3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lib4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Lib5"/>
+    </Declaration>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPublicado"/>
+        <NamedIndividual IRI="#Edi1"/>
+        <NamedIndividual IRI="#Lib3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPublicado"/>
+        <NamedIndividual IRI="#Edi1"/>
+        <NamedIndividual IRI="#Lib4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPublicado"/>
+        <NamedIndividual IRI="#Edi1"/>
+        <NamedIndividual IRI="#Lib5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPublicado"/>
+        <NamedIndividual IRI="#Edi2"/>
+        <NamedIndividual IRI="#Lib2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#aPublicado"/>
+        <NamedIndividual IRI="#Edi3"/>
+        <NamedIndividual IRI="#Lib1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribio"/>
+        <NamedIndividual IRI="#Esc1"/>
+        <NamedIndividual IRI="#Lib1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribio"/>
+        <NamedIndividual IRI="#Esc2"/>
+        <NamedIndividual IRI="#Lib2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribio"/>
+        <NamedIndividual IRI="#Esc3"/>
+        <NamedIndividual IRI="#Lib3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribio"/>
+        <NamedIndividual IRI="#Esc4"/>
+        <NamedIndividual IRI="#Lib4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escribio"/>
+        <NamedIndividual IRI="#Esc5"/>
+        <NamedIndividual IRI="#Lib5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Gen1"/>
+        <NamedIndividual IRI="#Lib1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneTitulosComo"/>
+        <NamedIndividual IRI="#Gen1"/>
+        <NamedIndividual IRI="#Lib1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Gen2"/>
+        <NamedIndividual IRI="#Lib2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneTitulosComo"/>
+        <NamedIndividual IRI="#Gen2"/>
+        <NamedIndividual IRI="#Lib2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Gen3"/>
+        <NamedIndividual IRI="#Lib3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneTitulosComo"/>
+        <NamedIndividual IRI="#Gen3"/>
+        <NamedIndividual IRI="#Lib3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Gen4"/>
+        <NamedIndividual IRI="#Lib4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Gen4"/>
+        <NamedIndividual IRI="#Lib5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#Lib1"/>
+        <NamedIndividual IRI="#Esc1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+        <NamedIndividual IRI="#Lib1"/>
+        <NamedIndividual IRI="#Edi3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#Lib2"/>
+        <NamedIndividual IRI="#Esc2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+        <NamedIndividual IRI="#Lib2"/>
+        <NamedIndividual IRI="#Edi2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#Lib3"/>
+        <NamedIndividual IRI="#Esc3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+        <NamedIndividual IRI="#Lib3"/>
+        <NamedIndividual IRI="#Edi1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#Lib4"/>
+        <NamedIndividual IRI="#Esc4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+        <NamedIndividual IRI="#Lib4"/>
+        <NamedIndividual IRI="#Edi1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#escritoPor"/>
+        <NamedIndividual IRI="#Lib5"/>
+        <NamedIndividual IRI="#Esc5"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+        <NamedIndividual IRI="#Lib5"/>
+        <NamedIndividual IRI="#Edi1"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Edi1"/>
+        <Literal>boekMexico</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Edi2"/>
+        <Literal>Limusa Noriega</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Edi3"/>
+        <Literal>deBolsillo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Esc1"/>
+        <Literal>Stephen King</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Esc2"/>
+        <Literal>Mark Twain</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Esc3"/>
+        <Literal>Aldous Huxley</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Esc4"/>
+        <Literal>George Orwell</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Esc5"/>
+        <Literal>Hernan Melville</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Gen1"/>
+        <Literal>Terror</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Gen2"/>
+        <Literal>Comedia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Gen3"/>
+        <Literal>Aventura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Gen4"/>
+        <Literal>Sociedad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Lib1"/>
+        <Literal>Terror</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Lib1"/>
+        <Literal>El resplandor</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#Lib1"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">682</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Lib2"/>
+        <Literal>Comedia</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Lib2"/>
+        <Literal>Las aventuras de Tom Sawyer</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#Lib2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">211</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Lib3"/>
+        <Literal>Sociedad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Lib3"/>
+        <Literal>Un mundo feliz</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#Lib3"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">207</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Lib4"/>
+        <Literal>Politica</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Lib4"/>
+        <Literal>1984</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#Lib4"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">267</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#genero"/>
+        <NamedIndividual IRI="#Lib5"/>
+        <Literal>Aventura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Lib5"/>
+        <Literal>Moby Dick</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#numeroPaginas"/>
+        <NamedIndividual IRI="#Lib5"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#int">173</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#aPublicado"/>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#esGenero"/>
+        <ObjectProperty IRI="#tieneTitulosComo"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#escribio"/>
+        <ObjectProperty IRI="#escritoPor"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#aPublicado"/>
+        <Class IRI="#editorial"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esGenero"/>
+        <Class IRI="#libro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#escribio"/>
+        <Class IRI="#escritor"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#escritoPor"/>
+        <Class IRI="#libro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+        <Class IRI="#libro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tienePaginas"/>
+        <Class IRI="#libro"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#aPublicado"/>
+        <Class IRI="#libro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escribio"/>
+        <Class IRI="#libro"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#escritoPor"/>
+        <Class IRI="#escritor"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#fuePublicadoPor"/>
+        <Class IRI="#editorial"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#genero"/>
+        <Class IRI="#libro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#editorial"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#escritor"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#libro"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Class IRI="#libro"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#genero"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#numeroPaginas"/>
+        <Datatype abbreviatedIRI="xsd:int"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+

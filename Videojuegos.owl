@@ -1,0 +1,458 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/zury/ontologies/2020/3/untitled-ontology-10"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/zury/ontologies/2020/3/untitled-ontology-10">
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <Class IRI="#Clasificacion"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Estudio"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Genero"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Nombre"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#DesarrolloA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#deEsteGeneroSon"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#esGenero"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#clasificacion"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#director"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#nombre"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#publisher"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clas1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Clas2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Est1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Est2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Est3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Est4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Gen4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pack1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pack2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pack3"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pack4"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Publi1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Publi2"/>
+    </Declaration>
+    <ClassAssertion>
+        <Class IRI="#Nombre"/>
+        <NamedIndividual IRI="#Pack1"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Clas1"/>
+        <NamedIndividual IRI="#Pack2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Clas1"/>
+        <NamedIndividual IRI="#Pack3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Clas2"/>
+        <NamedIndividual IRI="#Pack1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Clas2"/>
+        <NamedIndividual IRI="#Pack4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolloA"/>
+        <NamedIndividual IRI="#Est1"/>
+        <NamedIndividual IRI="#Pack2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolloA"/>
+        <NamedIndividual IRI="#Est2"/>
+        <NamedIndividual IRI="#Pack1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolloA"/>
+        <NamedIndividual IRI="#Est3"/>
+        <NamedIndividual IRI="#Pack3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolloA"/>
+        <NamedIndividual IRI="#Est4"/>
+        <NamedIndividual IRI="#Pack4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#deEsteGeneroSon"/>
+        <NamedIndividual IRI="#Gen1"/>
+        <NamedIndividual IRI="#Pack2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#deEsteGeneroSon"/>
+        <NamedIndividual IRI="#Gen1"/>
+        <NamedIndividual IRI="#Pack3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#deEsteGeneroSon"/>
+        <NamedIndividual IRI="#Gen1"/>
+        <NamedIndividual IRI="#Pack4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Gen2"/>
+        <NamedIndividual IRI="#Pack1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Gen2"/>
+        <NamedIndividual IRI="#Pack4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Gen3"/>
+        <NamedIndividual IRI="#Pack2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Gen3"/>
+        <NamedIndividual IRI="#Pack3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Gen4"/>
+        <NamedIndividual IRI="#Pack1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <NamedIndividual IRI="#Gen4"/>
+        <NamedIndividual IRI="#Pack4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+        <NamedIndividual IRI="#Pack1"/>
+        <NamedIndividual IRI="#Est2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Pack1"/>
+        <NamedIndividual IRI="#Gen4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+        <NamedIndividual IRI="#Pack1"/>
+        <NamedIndividual IRI="#Clas2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+        <NamedIndividual IRI="#Pack2"/>
+        <NamedIndividual IRI="#Est1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Pack2"/>
+        <NamedIndividual IRI="#Gen3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+        <NamedIndividual IRI="#Pack2"/>
+        <NamedIndividual IRI="#Clas1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+        <NamedIndividual IRI="#Pack3"/>
+        <NamedIndividual IRI="#Est3"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Pack3"/>
+        <NamedIndividual IRI="#Gen1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+        <NamedIndividual IRI="#Pack3"/>
+        <NamedIndividual IRI="#Clas1"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+        <NamedIndividual IRI="#Pack4"/>
+        <NamedIndividual IRI="#Est4"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#esGenero"/>
+        <NamedIndividual IRI="#Pack4"/>
+        <NamedIndividual IRI="#Gen2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+        <NamedIndividual IRI="#Pack4"/>
+        <NamedIndividual IRI="#Clas2"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#clasificacion"/>
+        <NamedIndividual IRI="#Clas1"/>
+        <Literal>E</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#clasificacion"/>
+        <NamedIndividual IRI="#Clas2"/>
+        <Literal>M</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Est1"/>
+        <Literal>Nintendo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Est2"/>
+        <Literal>Bethesda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Est3"/>
+        <Literal>Mojand</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Est4"/>
+        <Literal>From Software</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Gen1"/>
+        <Literal>Aventura</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Gen2"/>
+        <Literal>Horror</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Gen3"/>
+        <Literal>Familiar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Gen4"/>
+        <Literal>Accion</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Pack1"/>
+        <Literal>Juanito Banana</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Pack1"/>
+        <Literal>Doom Eternal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Pack2"/>
+        <Literal>Mishimoto</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Pack2"/>
+        <Literal>Animal Crossing New Horizon</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Pack3"/>
+        <Literal>Notch</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Pack3"/>
+        <Literal>Minecraft</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#director"/>
+        <NamedIndividual IRI="#Pack4"/>
+        <Literal>Miyasaki</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Pack4"/>
+        <Literal>Dark Souls</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Publi1"/>
+        <Literal>Nintendo</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#nombre"/>
+        <NamedIndividual IRI="#Publi2"/>
+        <Literal>Bandai</Literal>
+    </DataPropertyAssertion>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+        <ObjectProperty IRI="#DesarrolloA"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#deEsteGeneroSon"/>
+        <ObjectProperty IRI="#esGenero"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+        <Class IRI="#Nombre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#DesarrolloA"/>
+        <Class IRI="#Estudio"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#deEsteGeneroSon"/>
+        <Class IRI="#Genero"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#esGenero"/>
+        <Class IRI="#Nombre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+        <Class IRI="#Nombre"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <Class IRI="#Clasificacion"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DesarrolladoPor"/>
+        <Class IRI="#Estudio"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#DesarrolloA"/>
+        <Class IRI="#Nombre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#deEsteGeneroSon"/>
+        <Class IRI="#Nombre"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#esGenero"/>
+        <Class IRI="#Genero"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneClasificacionDe"/>
+        <Class IRI="#Clasificacion"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#tieneJuegosComo"/>
+        <Class IRI="#Nombre"/>
+    </ObjectPropertyRange>
+    <DataPropertyDomain>
+        <DataProperty IRI="#clasificacion"/>
+        <Class IRI="#Clasificacion"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#director"/>
+        <Class IRI="#Estudio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Estudio"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Genero"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#nombre"/>
+        <Class IRI="#Nombre"/>
+    </DataPropertyDomain>
+    <DataPropertyDomain>
+        <DataProperty IRI="#publisher"/>
+        <Class IRI="#Estudio"/>
+    </DataPropertyDomain>
+    <DataPropertyRange>
+        <DataProperty IRI="#clasificacion"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#director"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#nombre"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#publisher"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.5.9.2019-02-01T07:24:44Z) https://github.com/owlcs/owlapi -->
+
